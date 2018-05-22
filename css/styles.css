@@ -1,7 +1,11 @@
+body{
+  font-family: sans-serif;
+  background-color: lightgrey;
+}
+
 h1{
   color:crimson;
   font-size: 60px;
-  font-family: sans-serif;
   text-align: center;
 }
 
@@ -10,7 +14,6 @@ h1{
   margin: 0 auto 0 auto;
 }
 .home-nav a{
-  font-family: sans-serif;
   color:darkred;
   text-decoration: none;
   font-weight: bold;
@@ -23,9 +26,35 @@ h1{
   margin: 0 auto 0 auto;
 }
 .page-nav a{
-  font-family: sans-serif;
   font-weight:bold;
   color:darkred;
   text-decoration: none;
   padding: 5px;
+}
+
+#accom-table{
+  width: 100%;
+  padding:15px;
+}
+
+#accom-table td{
+  border:solid 1px black;
+  padding: 10px;
+}
+
+#dungeon-img {
+  height: 60%;
+}
+
+.accom-img{
+  text-align: center;
+}
+
+#photo-table {
+  width: 100%;
+  height: auto;
+}
+
+#photo-table img {
+  width: 60%;
 }
