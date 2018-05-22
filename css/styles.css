@@ -1,6 +1,31 @@
 h1{
-  font-size: 50px;
+  color:crimson;
+  font-size: 60px;
   font-family: sans-serif;
   text-align: center;
-  color: crimson;
+}
+
+.home-nav{
+  border:solid 1px black;
+  margin: 0 auto 0 auto;
+}
+.home-nav a{
+  font-family: sans-serif;
+  color:darkred;
+  text-decoration: none;
+  font-weight: bold;
+  padding:5px;
+  font-size: 24px;
+}
+
+.page-nav{
+  border:solid 1px black;
+  margin: 0 auto 0 auto;
+}
+.page-nav a{
+  font-family: sans-serif;
+  font-weight:bold;
+  color:darkred;
+  text-decoration: none;
+  padding: 5px;
 }
